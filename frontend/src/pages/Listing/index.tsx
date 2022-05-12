@@ -1,17 +1,36 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import Pagination from "components/Pagination";
-import MovieStars from "components/MovieStars";
+import MovieCard from "components/MovieCard";
 function Listing() {
 
-    return(
+  return (
 
-      <>
-        <Pagination />
-        <MovieStars />     
-      </>
-     
+    <>
+      <Pagination />
+      <div className="container">
 
-    )
-  }
+        <div className="row">
+          <div className="col-sm-6 col-xl-3 mb-3">
+            <MovieCard />
+          </div>
+          <div className="col-sm-6 col-xl-3 mb-3">
+            <MovieCard />
+          </div>
+          <div className="col-sm-6 col-xl-3 mb-3">
+            <MovieCard />
+          </div>
+          <div className="col-sm-6 col-xl-3 mb-3">
+            <MovieCard />
+          </div>
+          <div className="col-sm-6 col-xl-3 mb-3">
+            <MovieCard />
+          </div>
+        </div>
+      </div>
+    </>
+
+
+  )
+}
 
 export default Listing;
