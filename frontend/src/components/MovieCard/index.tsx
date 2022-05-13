@@ -4,16 +4,8 @@ function MovieCard() {
 
     const movie = {
         id: 1,
-        image: "https://flim-1-0-2.s3.eu-central-1.amazonaws.com/thumbs/thumbnail/ff65a81adcb911eab4e810ddb1aba44f.jpeg",
-        title: "Shazam",
-        count: 2,
-        score: 4.5
-    };
-
-    const movie = {
-        id: 1,
-        image: "https://flim-1-0-2.s3.eu-central-1.amazonaws.com/thumbs/thumbnail/ff65a81adcb911eab4e810ddb1aba44f.jpeg",
-        title: "Shazam",
+        image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",
+        title: "The Witcher",
         count: 2,
         score: 4.5
     };
