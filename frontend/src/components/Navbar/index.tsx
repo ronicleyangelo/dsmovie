@@ -8,7 +8,7 @@ function Navbar() {
         <nav className="container">
           <div className="dsmovie-nav-content">
           <h1>DSMovie</h1>
-          <line href="https://github.com/ronicleyangelo"></line>
+          <a href="https://github.com/ronicleyangelo"></a>
             <div className="dsmovie-contact-container">
               <GithubIcon />
               <p className="dsmovie-contact-link">/ronicleyangelo</p>
@@ -17,7 +17,7 @@ function Navbar() {
         </nav>
     </header>
         
-        )
+        );
 }
 
 export default Navbar;
