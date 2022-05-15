@@ -7,13 +7,12 @@ public class ScoreDTO {
 	private Double score;
 	
 	public ScoreDTO() {
-
-}
-	public Long getMoviaeId() {
+    }
+	public Long getmovieId() {
 		return movieId;
 	}
 
-	public void setMoviaeId(Long movieId) {
+	public void setMovieId(Long movieId) {
 		this.movieId = movieId;
 	}
 
@@ -32,9 +31,6 @@ public class ScoreDTO {
 	public void setScore(Double score) {
 		this.score = score;
 	}
-	
-	public Long getMovieId() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+
 }
+
