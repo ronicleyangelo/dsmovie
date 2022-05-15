@@ -37,11 +37,11 @@ public class Movie {
 		this.id = id;
 	}
 
-	public String getTiltle() {
+	public String getTitle() {
 		return title;
 	}
 
-	public void setTiltle(String tiltle) {
+	public void setTitle(String title) {
 		this.title = title;
 	}
 
